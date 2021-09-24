@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO APP login</title>
+	<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body >
+
+  
+
+
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,300' rel='stylesheet' type='text/css'>
+	<form action="main.html" id="form" onsubmit="return validate(redirect)">
+    <div id="mainButton">
+      
+		<div class="btn-text" onclick="openForm()">LOG IN</div>
+		<div class="modal">
+		<div class="form-title"><b>LOG IN</b></div>
+		<div class="input-group">
+		<input type="text" name="" id="username" onkeyup="validate(redirect)"   required>
+			 <label><b>Username</b></label>
+		   </div>
+		   <label for="error" id="error1"></label>
+			<br>
+		   <div class="input-group">
+			<input type="password" id="password"   onkeyup="validate(redirect)" required>
+			 <label><b>Password</b></label>
+		   </div>
+		   <label for="error" id="error2"></label>
+		  <br>
+		  
+		  <button class="form-button" type="submit" id="btn" >
+      		SUBMIT
+    	  </button>  
+        <div class="done-by">Created by Ancy</div>
+		 </div>
+	   </div>	
+	</form>
+
+		<div class="done-by">Created by Ancy</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.min.js"></script>
+
+<script id="vertexShader" type="x-shader/x-vertex">
+    void main() {
+        gl_Position = vec4( position, 1.0 );
+    }
+</script>
+
+<video autoplay muted loop id="myVideo">
+  <source src="loginmp4.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+
+  
+
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()"></button>
+</div>
+
+
+
+
+
+</body>
+<script src="js/login.js"></script>
+</html>
