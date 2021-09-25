@@ -77,31 +77,51 @@ h1{
 
 
   .todostyle{
-      border:bisque 2px solid;
-       margin-right: 50px;
-       border-radius: 12px;
-       padding:10px;
-       background-image: linear-gradient( rgb(13, 219, 99),rgb(207, 65, 195));
+        
+    
+       border: antiquewhite solid 2px; 
+      color: aliceblue;
+       padding:1px;
+       margin-left: 100px;
+       margin-right: 100px;
+       background-color: rgb(129, 138, 138);
+       border-radius: 20px;
+       text-align: center;
+       font-weight: bolder;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+      
 
  .signstyle {
-    border:bisque 2px solid;
-     margin-right: 50px;
-     border-radius: 12px;
-     padding:10px;
-     background-image: linear-gradient( rgb(13, 219, 99),rgb(207, 65, 195));
+     border: antiquewhite solid 2px; 
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+     padding:.5px; 
+     background-color: rgb(129, 134, 134);
+     border-radius: 20px;
+     text-align: center;
+     font-weight: bolder;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+     
+
+
 }
 
 .todostyle :hover{
-    color:blue;
+background-color:blue;
+border-radius: 20px;
 }
 
 
  
 
 .signstyle :hover{
-    color:blue;
+    background-color:blue;
+    border-radius: 20px;
 }
+
 
 
 
